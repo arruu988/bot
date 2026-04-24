@@ -46,9 +46,9 @@ def keep_alive():
 
 # --- Configuration FROM .env FILE ---
 TOKEN = os.getenv("TOKEN")
-OWNER_ID = int(os.getenv('OWNER_ID', 8092340069))
-ADMIN_ID = int(os.getenv('ADMIN_ID', 8092340069))
-YOUR_USERNAME = os.getenv('YOUR_USERNAME', 'proplayerhuladle')
+OWNER_ID = int(os.getenv('OWNER_ID', 8598847348))
+ADMIN_ID = int(os.getenv('ADMIN_ID', 8598847348))
+YOUR_USERNAME = os.getenv('YOUR_USERNAME', 'xs46y')
 UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL', 'vnsaryan')
 
 # Limits from .env or defaults
