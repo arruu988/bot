@@ -2778,7 +2778,7 @@ def _logic_manual_install(message):
 
 def _logic_help(message):
     help_text = """
-🤖 **DEMON Hosting Bot Help Guide**
+🤖 **UNKNOWN Hosting Bot Help Guide**
 
 **📌 Basic Commands:**
 • /start - Start the bot
@@ -2807,8 +2807,8 @@ def _logic_help(message):
 2. Join all required channels
 3. Contact owner for subscription upgrades
 
-**Support:** @DEMON_HOSTING_GROUP
-**Updates:** @DEMON_HOSTING_GROUP
+**Support:** @proplayerhuladle
+**Updates:** @proplayerhuladle
 """
     bot.reply_to(message, help_text, parse_mode='Markdown')
 
@@ -4899,7 +4899,7 @@ atexit.register(cleanup)
 
 # --- Main Execution ---
 if __name__ == '__main__':
-    logger.info("="*50 + "\n🤖 DEMON Hosting Bot Starting Up...\n" + f"🐍 Python: {sys.version.split()[0]}\n" +
+    logger.info("="*50 + "\n🤖 Unknown Hosting Bot Starting Up...\n" + f"🐍 Python: {sys.version.split()[0]}\n" +
                 f"🔧 Base Dir: {BASE_DIR}\n📁 Upload Dir: {UPLOAD_BOTS_DIR}\n" +
                 f"📊 Data Dir: {IROTECH_DIR}\n🔑 Owner ID: {OWNER_ID}\n🛡️ Admins: {len(admin_ids)}\n" +
                 f"🚫 Banned Users: {len(banned_users)}\n📢 Mandatory Channels: {len(mandatory_channels)}\n" + "="*50)
